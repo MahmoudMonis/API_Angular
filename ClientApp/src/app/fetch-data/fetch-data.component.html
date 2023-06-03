@@ -1,0 +1,18 @@
+<h1 id="tableLabel">About us</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!forecasts?.length"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" >
+    <tr>
+      <th>What's The Meaning Of Technician ?</th>
+      <th>What We Do ?</th>
+      <th>Examples </th>
+      </tr>
+    <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Technician" target="_blank">Go And Inspect</a></td>
+      <td><a href="https://www.zippia.com/technician-jobs/what-does-a-technician-do/" target="_blank">Go And Read </a></td>
+      <td><a href="https://www.indeed.com/career-advice/finding-a-job/types-of-technicians" target="_blank">See Some Examples</a></td>
+    </tr>
+</table>
